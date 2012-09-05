@@ -15,4 +15,6 @@
 + (id<NSObject, NSCopying>) parseString:(NSString *) data encoding:(NSStringEncoding) enc;
 + (id<NSObject, NSCopying>) parseData:(NSData *) data;
 
++ (NSString *) printToString:(id<NSObject, NSCopying>) data;
+
 @end
